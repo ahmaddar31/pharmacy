@@ -43,7 +43,6 @@ if (mysqli_num_rows($result) > 0) {
         <div class="container" style="margin: 3px 3%">
             <div class="row">
                 <?php
-                print_r($_SESSION['userlog_info']['userID']);
                 $cardCount = 0; // Counter to keep track of the number of cards
                 for ($i = 0; $i < count($_SESSION['all_info']); $i++) {
                     if (isset($_SESSION['all_info'][$i])) {
