@@ -14,6 +14,6 @@
         header('location:index.php');
     }
     else{
-        header("location:login.php?flag=1");
+        header("location:userlogin.php?flag=1");
     }
 ?>
